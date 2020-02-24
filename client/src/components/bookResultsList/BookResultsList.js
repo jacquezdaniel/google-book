@@ -5,7 +5,7 @@ class BookResultsList extends Component {
   render() {
     const { books } = this.props;
     return (
-      <div>
+      <div className="container">
         {books.map(book => (
           <BookResult key={book.id} {...book} />
         ))}

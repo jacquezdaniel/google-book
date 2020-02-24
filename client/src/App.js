@@ -8,9 +8,11 @@ class App extends Component {
     return (
       <Container className="App">
         <div className="App-header">
-          <h2>Google Books</h2>
+          <h2 className="text-center">Google Books</h2>
         </div>
-        <div className="App-intro">
+        <br />
+        <br />
+        <div className="container">
           <Search />
         </div>
       </Container>

@@ -16,7 +16,7 @@ class BookResult extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
         <BookTitle
           {...this.props.volumeInfo}
           onClick={this.toggleDetails.bind(this)}

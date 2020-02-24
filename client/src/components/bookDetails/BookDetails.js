@@ -22,8 +22,10 @@ class BookDetails extends Component {
               <Image src={this.state.thumbnail} thumbnail />
               <Rating rating={this.state.rating} />
             </Col>
-            <Col md={6}>
-              <div className="description">{this.props.description}</div>
+            <Col md={12}>
+              <div className="description text-center">
+                {this.props.description}
+              </div>
             </Col>
           </Row>
         </Col>
