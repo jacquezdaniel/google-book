@@ -10,11 +10,9 @@ class App extends Component {
         <div className="App-header">
           <h2 className="text-center">Google Books</h2>
         </div>
+        <Search />
         <br />
-        <br />
-        <div className="container">
-          <Search />
-        </div>
+        <div className="container"></div>
       </Container>
     );
   }

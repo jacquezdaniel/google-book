@@ -29,7 +29,7 @@ class Search extends Component {
         dataType: "json"
       }
     )
-      .then(r => r.json())
+      .then(res => res.json())
       .then(books => self.setState({ books: books.items }));
   }
 
